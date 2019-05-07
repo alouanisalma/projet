@@ -82,7 +82,7 @@ rel="stylesheet">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-xs-2">
-							<div id="colorlib-logo"><a href="index.html">Article.</a></div>
+							<div id="colorlib-logo"><a href="index.html"></a></div>
 						</div>
 						<div class="col-xs-10 text-right menu-1">
 							<ul>
@@ -109,7 +109,8 @@ rel="stylesheet">
 		<aside id="colorlib-hero">
 			<div class="flexslider">
 				<ul class="slides">
-			   	<li style="background-image: url(images/img_bg_1.jpg);">
+			   	<li style="<?php bloginfo('template_directory'); ?>background-image: url(\themes\article\images\a1.jpg);">
+					</a>
 			   		<div class="overlay"></div>
 			   		<div class="container-fluid">
 			   			<div class="row">
@@ -125,7 +126,7 @@ rel="stylesheet">
 			   		</div>
 			   	</li>
 
-			   	<li style="<?php bloginfo('template_directory'); ?>/background-image: url(images/img_bg_2.jpg);">
+			   	<li style="<?php bloginfo('template_directory'); ?>/background-image: url(\images\img_bg_2.jpg);">
 			   		<div class="overlay"></div>
 			   		<div class="container-fluid">
 			   			<div class="row">

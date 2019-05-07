@@ -11,20 +11,28 @@
                     <a href="#" class="instagram text-center" style="<?php bloginfo('template_directory'); ?>background-image: url(images/ISETSL.jpg);">
 					<a href="#" class="instagram text-center" style="<?php bloginfo('template_directory'); ?>background-image: url(images/gallery-1.jpg);">
 					</a>
+
 					<a href="#" class="instagram text-center" style="<?php bloginfo('template_directory'); ?>background-image: url(images/gallery-2.jpg);">
 					</a>
+
 					<a href="#" class="instagram text-center" style="<?php bloginfo('template_directory'); ?>background-image: url(images/gallery-3.jpg);">
 					</a>
+
 					<a href="#" class="instagram text-center" style="<?php bloginfo('template_directory'); ?>background-image: url(images/gallery-4.jpg);">
 					</a>
+
 					<a href="#" class="instagram text-center" style="<?php bloginfo('template_directory'); ?>background-image: url(images/gallery-5.jpg);">
 					</a>
+
 					<a href="#" class="instagram text-center" style="<?php bloginfo('template_directory'); ?>background-image: url(images/gallery-6.jpg);">
 					</a>
+
 					<a href="#" class="instagram text-center" style="<?php bloginfo('template_directory'); ?>background-image: url(images/gallery-7.jpg);">
 					</a>
+
 					<a href="#" class="instagram text-center" style="<?php bloginfo('template_directory'); ?>background-image: url(images/gallery-8.jpg);">
 					</a>
+					
 				</div>
 			</div>
 		</div>
@@ -133,4 +141,4 @@
 	
 
 	</body>
-</html>
+</html> 
