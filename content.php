@@ -7,6 +7,7 @@ href="#"><?php the_author(); ?></a></p>
  
 
 </div><!-- /.blog-post -->
+<<<<<<< Updated upstream
 <a href="#" class="instagram text-center" style="<?php bloginfo('template_directory'); ?>background-image: url(images/p.jpg);">
 <html>
 
@@ -120,3 +121,16 @@ href="#"><?php the_author(); ?></a></p>
 </body>
 
 </html>
+=======
+<a href="<?php comments_link(); ?>"> <?php printf( _nx( 'One Comment',
+'%1$s Comments', get_comments_number(), 'comments title', 'textdomain' ),
+number_format_i18n( get_comments_number() ) ); ?> </a>
+<?php next_posts_link( 'Older posts' ); ?>
+<?php previous_posts_link( 'Newer posts' ); ?>
+<nav>
+<ul class="pager">
+<li><?php next_posts_link( 'Previous' ); ?></li>
+<li><?php previous_posts_link( 'Next' ); ?></li>
+</ul>
+</nav>
+>>>>>>> Stashed changes
