@@ -8,7 +8,7 @@
 			<div class="row">
 				<div class="instagram-entry">
 					
-
+                    <a href="#" class="instagram text-center" style="<?php bloginfo('template_directory'); ?>background-image: url(images/ISETSL.jpg);">
 					<a href="#" class="instagram text-center" style="<?php bloginfo('template_directory'); ?>background-image: url(images/gallery-1.jpg);">
 					</a>
 					<a href="#" class="instagram text-center" style="<?php bloginfo('template_directory'); ?>background-image: url(images/gallery-2.jpg);">

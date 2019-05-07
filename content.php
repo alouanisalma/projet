@@ -18,9 +18,9 @@ href="#"><?php the_author(); ?></a></p>
 <body>
 
 <table border="1" width="94%" height="398">
-<caption><b><font size="6">Affectations des modules aux Enseignants</font></b></caption>
+<caption><b><font size="6">Affectations des modules aux Enseignants<br>Departemen Informatique</font></b></caption>
 	<tr>
-		<td width="233"><font color="#ff0000"><b>Enseignant</b></font></td>
+		<td width="233"><font color="#ff0000"><b>Enseignant affecté</b></font></td>
 		<td width="155"><b><font color="#FF0000">Matière</font></b></td>
 		<td width="154"><font color="#ff0000"><b>Niveau</b></font></td>
 		<td width="173"><font color="#FF0000"><b>jour 1</b></font></td>
