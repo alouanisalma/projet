@@ -5,8 +5,7 @@ the_title(); ?></a></h2>
 href="#"><?php the_author(); ?></a></p>
  <?php the_excerpt(); ?>
 </div><!-- /.blog-post -->
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+
 <a href="#" class="instagram text-center" style="<?php bloginfo('template_directory'); ?>background-image: url(images/p.jpg);">
 <html>
 
@@ -16,10 +15,6 @@ href="#"><?php the_author(); ?></a></p>
 </head>
 
 <body>
-
-
-=======
->>>>>>> Stashed changes
 <a href="<?php comments_link(); ?>"> <?php printf( _nx( 'One Comment',
 '%1$s Comments', get_comments_number(), 'comments title', 'textdomain' ),
 number_format_i18n( get_comments_number() ) ); ?> </a>
@@ -31,9 +26,7 @@ number_format_i18n( get_comments_number() ) ); ?> </a>
 <li><?php previous_posts_link( 'Next' ); ?></li>
 </ul>
 </nav>
-<<<<<<< Updated upstream
+
 </body>
 
 </html>
-=======
->>>>>>> Stashed changes
