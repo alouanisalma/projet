@@ -52,3 +52,83 @@ function setting_github() { ?>
 <input type="text" name="github" id="github" value="<?php echo
 get_option('github'); ?>" />
 <?php }?>
+<?php
+function create_post_Enseignant(){
+ register_post_type('Enseignant',
+ array(
+ 'labels'=>array(
+ 'name'=>__('Enseignant'),
+ ),
+ 'public'=>true,
+ 'hierarchical'=>true,
+ 'has_archive'=>true,
+ 'supports'=>array(
+ 'title',
+'editor',
+'excerpt',
+'thumbnail',
+ ),
+ 'taxonomies'=>array(
+ 'post_tag',
+'category',
+ )
+ )
+);
+ register_taxonomy_for_object_type('category','Enseignant');
+ register_taxonomy_for_object_type('post_tag','Enseignant');
+}
+add_action('init','create_post_Enseignant'); 
+
+function add_curriculum_meta_box(){
+ add_meta_box(
+ 'matiere_meta_box',// $id
+ 'matiere',// $title
+ 'show_matiere_meta_box',// $callback
+ 'Enseignant',// $screen
+ 'normal',// $context
+ 'high'// $priority
+);
+}
+add_action('add_meta_boxes','add_matiere_meta_box');
+
+
+
+function show_curriculum_meta_box(){
+	global $post;
+ $meta=get_post_meta($post->ID , 'matiere' , true); ?>
+<input type="hidden" name="curriculum_nonce" value="<?php echo wp_create_nonce(basename(__FILE__) );?>">
+<?php
+}
+
+
+
+
+function save_curriculum_meta( $post_id ) {
+// verify nonce
+if ( !wp_verify_nonce( $_POST['matiere_nonce'], basename(__FILE__) ) ) {
+ return $post_id;
+}
+// check autosave
+if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
+ return $post_id;
+}
+// check permissions
+if ( 'page' === $_POST['Enseignant'] ) {
+ if ( !current_user_can( 'edit_page', $post_id ) ) {
+ return $post_id;
+ } elseif ( !current_user_can( 'edit_post', $post_id ) ) {
+ return $post_id;
+ }
+}
+
+$old = get_post_meta( $post_id, 'matiere', true );
+$new = $_POST['matiere'];
+if ( $new && $new !== $old ) {
+ update_post_meta( $post_id, 'matiere', $new );
+} elseif ( '' === $new && $old ) {
+ delete_post_meta( $post_id, 'matiere', $old );
+}
+}
+add_action( 'save_post', 'save_matiere_meta' );
+?>
+

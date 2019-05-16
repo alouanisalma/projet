@@ -6,18 +6,7 @@
 							</div>
 						</div>
 						
-								<ul class="colorlib-social-icons">
-									<li><a href="<?php echo get_option('twitter'); ?>">Twitter</a></li>
-                                    <li><a href="<?php echo get_option('facebook'); ?>">facebook</a></li>
-                                    <li><a href="<?php echo get_option('dribbble'); ?>">dribbble</a></li>
-                                    <li><a href="<?php echo get_option('linkedin"'); ?>">linkedin"</a></li>
-
-									
-								</ul>
-							</p>
-						</div>
-						
-						
+							
 						<div class="side">
 							<h2 class="sidebar-heading">Subscribe to our newsletter</h2>
 							<div class="row">

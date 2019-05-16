@@ -35,64 +35,18 @@
 			<div class="container">
 				<div class="row row-pb-md">
 					<div class="col-md-4">
-						<h2>Navigational</h2>
+						
 						<p>
 							<ul class="colorlib-footer-links">
+								<center>
 								<li><a href="#"><i class="icon-check"></i> Home</a></li>
 								<li><a href="#"><i class="icon-check"></i> About Me</a></li>
-								<li><a href="#"><i class="icon-check"></i> Blog</a></li>
-								<li><a href="#"><i class="icon-check"></i> Travel</a></li>
-								<li><a href="#"><i class="icon-check"></i> Lifestyle</a></li>
-								<li><a href="#"><i class="icon-check"></i> Fashion</a></li>
-								<li><a href="#"><i class="icon-check"></i> Health</a></li>
+								</center>
 							</ul>
 						</p>
 					</div>
-					<div class="col-md-4">
-						<h2>Recent Post</h2>
-						<ul class="colorlib-footer-links">
-							<li>
-								<span>22 Jan, 2017</span>
-								<a href="#">The Most Popular Leg Workout for Women</a>
-							</li>
-							<li>
-								<span>20 Jan, 2017</span>
-								<a href="#">Popular Lifestyle with Fashion &amp; Modeling</a>
-							</li>
-							<li>
-								<span>21 Jan, 2017</span>
-								<a href="#">Video Post Travel with my Friends</a>
-							</li>
-							<li>
-								<span>20 Jan, 2017</span>
-								<a href="#">Popular Lifestyle with Fashion &amp; Modeling</a>
-							</li>
-						</ul>
-					</div>
-					<div class="col-md-4 col-md-push-1">
-						<h2>Tags</h2>
-						<p class="tags">
-							<span><a href="#"><i class="icon-tag"></i> Modeling</a></span>
-							<span><a href="#"><i class="icon-tag"></i> Fashion</a></span>
-							<span><a href="#"><i class="icon-tag"></i> Life</a></span>
-							<span><a href="#"><i class="icon-tag"></i> Blog</a></span>
-							<span><a href="#"><i class="icon-tag"></i> Workout</a></span>
-							<span><a href="#"><i class="icon-tag"></i> Vacation</a></span>
-							<span><a href="#"><i class="icon-tag"></i> Travel</a></span>
-							<span><a href="#"><i class="icon-tag"></i> Exercise</a></span>
-							<span><a href="#"><i class="icon-tag"></i> Health</a></span>
-							<span><a href="#"><i class="icon-tag"></i> News</a></span>
-							<span><a href="#"><i class="icon-tag"></i> Model</a></span>
-							<span><a href="#"><i class="icon-tag"></i> Women</a></span>
-							<span><a href="#"><i class="icon-tag"></i> Animals</a></span>
-							<span><a href="#"><i class="icon-tag"></i> Nature</a></span>
-							<span><a href="#"><i class="icon-tag"></i> Art</a></span>
-							<span><a href="#"><i class="icon-tag"></i> Sea</a></span>
-							<span><a href="#"><i class="icon-tag"></i> Ocean</a></span>
-							<span><a href="#"><i class="icon-tag"></i> Office</a></span>
-							<span><a href="#"><i class="icon-tag"></i> Home</a></span>
-						</p>
-					</div>
+					
+
 				</div>
 				<div class="row">
 					<div class="col-md-12">
