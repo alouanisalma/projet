@@ -64,6 +64,10 @@ rel="stylesheet">
 	<!-- Theme style  -->
 
 	<!-- Modernizr JS -->
+	<?php wp_nav_menu($args); ?>
+	<div>
+<?php wp_nav_menu(); ?>
+</div>
 	<script src="<?php bloginfo('template_directory'); ?>/js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
@@ -85,8 +89,8 @@ rel="stylesheet">
 						</div>
 						<div class="col-xs-10 text-right menu-1">
 							<ul>
-								<li class="active"><a href="index.html">Home</a></li>
-								<li><a href="about.html">About Me</a></li>
+								<li class="active"><a href="index.html">acceuil</a></li>
+								<li><a href="contact.php">contact</a></li>
 							</ul>
 						</div>
 					</div>

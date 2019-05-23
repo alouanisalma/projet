@@ -7,5 +7,6 @@ endwhile;
 endif; ?>
 </div> <!-- /.blog-main -->
 <?php get_sidebar(); ?>
+
 </div> <!-- /.row -->
 <?php get_footer(); ?>

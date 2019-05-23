@@ -14,9 +14,19 @@ the_title(); ?></a></h2>
 </head>
 
 <body>
+
+
+
+
+
+
+	
 <a href="<?php comments_link(); ?>"> <?php printf( _nx( 'One Comment',
 '%1$s Comments', get_comments_number(), 'comments title', 'textdomain' ),
 number_format_i18n( get_comments_number() ) ); ?> </a>
+
+
+
 <?php next_posts_link( 'Older posts' ); ?>
 <?php previous_posts_link( 'Newer posts' ); ?>
 <nav>
