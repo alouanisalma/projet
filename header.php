@@ -85,8 +85,9 @@ rel="stylesheet">
 						</div>
 						<div class="col-xs-10 text-right menu-1">
 							<ul>
-								<li class="active"><a href="index.html">Home</a></li>
+								<li class="active"><a href="http://localhost/wordpress/">Home</a></li>
 								<li><a href="about.html">About Me</a></li>
+								<li><a href="http://localhost/wordpress/contact/"><i class="icon-check"></i> contact</a></li>
 							</ul>
 						</div>
 					</div>

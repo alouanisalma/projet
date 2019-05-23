@@ -13,9 +13,8 @@
  <option value="option-two" <?php selected($meta['select'],'optionnine');?>>Fondement Du Multimédia -TI1</option>
 <option value="option-two" <?php selected($meta['select'],'optionten');?>>algorithme et structure de donnees _TI</option>
 <option value="option-two" <?php selected($meta['select'],'optioneleven');?>>Mathématique -TI11</option>
- 
-</select>
-</p>
+ </select>
+ </p>
 <p>
 <label for="your_fields[text]">enseignant effecté </label>
 <br>

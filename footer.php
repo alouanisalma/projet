@@ -35,12 +35,14 @@
 			<div class="container">
 				<div class="row row-pb-md">
 					<div class="col-md-4">
-						
+						<div class="col-md-4">
 						<p>
 							<ul class="colorlib-footer-links">
 								<center>
 								<li><a href="#"><i class="icon-check"></i> Home</a></li>
 								<li><a href="#"><i class="icon-check"></i> About Me</a></li>
+								<li><a href="http://localhost/wordpress/contact/"><i class="icon-check"></i> contact</a></li>
+								
 								</center>
 							</ul>
 						</p>

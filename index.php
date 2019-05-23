@@ -9,3 +9,7 @@ endif; ?>
 <?php get_sidebar(); ?>
 </div> <!-- /.row -->
 <?php get_footer(); ?>
+<?php get_comments();?>
+
+
+
